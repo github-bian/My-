@@ -1,0 +1,115 @@
+body{
+
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial,"Microsoft Yahei UI","Microsoft Yahei",SimHei,"\5b8b\4f53",SimSun, sans-serif;
+
+    color: #999;
+}
+
+
+.logo{
+    padding: 0;
+}
+#mycarousel img{
+    margin: 0 auto;
+}
+.table1{
+    margin: 30px 0;
+    color: #666;
+}
+.table1-h2{
+    font-size: 20px;
+    text-align: center;
+    text-indent: 1px;
+    color: #0059b2;
+}
+.table1-p{
+    text-indent: 1px;
+    text-align: center;
+    font-size: 15px;
+    color: #999;
+    margin: 20px 0 40px 0;
+}
+.table1 h4{
+    margin: 5px 0 20px 0;
+}
+.table1 .text-muted{
+    text-decoration: line-through;
+    color: #999;
+}
+.table1 .col{
+    padding: 20px;
+}
+@media (min-width: 768px) {
+.table1-h2{
+    font-size: 26px;
+}
+    .table1-p{
+        font-size: 16px;
+    }
+    .table2-img{
+        float: right;
+    }
+    .table2-text{
+        float: left;
+    }
+    .text h3{
+        font-size: 22px;
+    }
+    text p{
+        font-size: 15px;
+    }
+}
+@media (min-width: 992px) {
+    .table1-h2{
+        font-size: 28px;
+    }
+    .table1-p{
+        font-size: 17px;
+    }
+
+    .text h3{
+        font-size: 24px;
+    }
+    text p{
+        font-size: 16px;
+    }
+}
+@media (min-width:1280px) {
+    .table1-h2{
+        font-size: 30px;
+    }
+    .table1-p{
+        font-size: 18px;
+    }
+    .text h3{
+        font-size: 26px;
+    }
+    text  p{
+        font-size: 18px;
+    }
+}
+.table2 img{
+     width: 40%;
+     height: 40%;
+ }
+.table3 img{
+    width: 65%;
+    height: 65%;
+}
+.table2,.table3{
+    padding: 60px 20px;
+    text-align: center;
+}
+.table2{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+.table3{
+    background-color: #f0ffbf;
+}
+.footer{
+    background-color: #666;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    color: #EEEEEE;
+}
